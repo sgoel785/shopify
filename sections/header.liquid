@@ -41,7 +41,7 @@
         }
       </style>
 
-      <div class="announcement-bar test" role="region" aria-label="{{ 'sections.header.announcement_bar_label' | t }}">
+      <div class="announcement-bar" role="region" aria-label="{{ 'sections.header.announcement_bar_label' | t }}">
         {%- unless section.settings.message_link == blank -%}
           <a href="{{ section.settings.message_link }}" class="announcement-bar__link">
         {%- endunless -%}
